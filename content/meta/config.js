@@ -1,28 +1,28 @@
 module.exports = {
-  siteTitle: "Atte Juvonen", // <title>
-  shortSiteTitle: "Atte Juvonen", // <title> ending for posts and pages
-  siteDescription: "Atte Juvonen",
-  siteUrl: "https://www.attejuvonen.fi",
+  siteTitle: "LearnBI", // <title>
+  shortSiteTitle: "LearnBI", // <title> ending for posts and pages
+  siteDescription: "Learn BI from Zero.",
+  siteUrl: "https://learnbi.netlify.app",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "Atte Juvonen",
+  authorName: "LearnBI",
   authorTwitterAccount: "",
-  authorGithub: "https://github.com/baobabkoodaa",
-  authorStackoverflow: "https://stackexchange.com/users/5678032/atte-juvonen?tab=accounts",
-  authorLinkedin: "https://linkedin.com/in/atte-juvonen-86b886113",
-  authorCodeforces: "https://codeforces.com/profile/baobab",
-  authorYoutube: "https://www.youtube.com/channel/UCfHqfHoSYL0V_fXA_JQkeLw?view_as=subscriber",
+  authorGithub: "https://github.com/learnbi",
+  authorStackoverflow: "https://stackexchange.com/",
+  authorLinkedin: "https://linkedin.com/",
+  authorCodeforces: "https://codeforces.com/",
+  authorYoutube: "https://www.youtube.com/",
 
   /* header text */
-  headerTitle: "atte juvonen",
+  headerTitle: "LearnBI",
   headerSubTitle: "",
 
   /* manifest.json */
-  manifestName: "Atte Juvonen",
-  manifestShortName: "atteJuvonen", // max 12 characters
+  manifestName: "LearnBI",
+  manifestShortName: "learnbi", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
