@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "LearnBI", // <title>
-  shortSiteTitle: "LearnBI", // <title> ending for posts and pages
-  siteDescription: "Learn BI from Zero.",
+  siteTitle: "[bi]mazing", // <title>
+  shortSiteTitle: "[bi]mazing", // <title> ending for posts and pages
+  siteDescription: "Learn BI. From Scratch. Real Cases.",
   siteUrl: "https://learnbi.netlify.app",
   // pathPrefix: "",
   siteImage: "preview.jpg",
@@ -17,12 +17,12 @@ module.exports = {
   authorYoutube: "https://www.youtube.com/",
 
   /* header text */
-  headerTitle: "LearnBI",
-  headerSubTitle: "",
+  headerTitle: "[bi]mazing",
+  headerSubTitle: "Learn BI. From Scratch. Real Cases.",
 
   /* manifest.json */
-  manifestName: "LearnBI",
-  manifestShortName: "learnbi", // max 12 characters
+  manifestName: "[bi]mazing",
+  manifestShortName: "[bi]mazing", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
