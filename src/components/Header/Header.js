@@ -35,15 +35,9 @@ class Header extends React.Component {
     return (
       <React.Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
-          <Link to="/about" className="logoType">
+          <Link to="/" className="logoType">
             <div className="logo">
-              <svg viewBox="0 0 370 90" height="30px">
-                <g transform="matrix(2.8125,0,0,2.8125,0,0)" stroke="none" fill="#017F8B">
-                <path d="M4.029 14.362L14.362 4.028l.707.707L4.736 15.07zM17.135 27.47L27.47 17.135l.707.707-10.333 10.333zM4.029 17.841l.707-.707 10.333 10.334-.707.707zM17.135 4.735l.708-.707L28.176 14.36l-.707.707z"/>
-                <g>
-                <path d="M16 1.414l1.683 1.683L16 4.779l-1.683-1.683L16 1.414M16 0l-3.097 3.097L16 6.194l3.097-3.097L16 0zM16 27.221l1.683 1.683L16 30.586l-1.683-1.683L16 27.221m0-1.415l-3.097 3.097L16 32l3.097-3.097L16 25.806zM3.097 14.317L4.779 16l-1.683 1.683L1.414 16l1.683-1.683m0-1.414L0 16l3.097 3.097L6.194 16l-3.097-3.097zM28.903 14.317L30.586 16l-1.683 1.683L27.221 16l1.682-1.683m0-1.414L25.806 16l3.097 3.097L32 16l-3.097-3.097z"/>
-                </g>
-              </g>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#017f8b"><path d="M4.03 14.362L14.362 4.028l.707.707L4.736 15.07zM17.135 27.47L27.47 17.136l.707.707-10.334 10.334zM4.03 17.84l.707-.707L15.07 27.468l-.707.707zM17.135 4.735l.707-.707L28.176 14.36l-.707.707z"/><path d="M16 1.414l1.683 1.683L16 4.78l-1.683-1.683L16 1.414M16 0l-3.097 3.097L16 6.194l3.097-3.097L16 0zm0 27.22l1.683 1.683L16 30.586l-1.683-1.683L16 27.22m0-1.415l-3.097 3.097L16 32l3.097-3.097L16 25.806zM3.097 14.317L4.78 16l-1.683 1.683L1.414 16l1.683-1.683m0-1.414L0 16l3.097 3.097L6.194 16l-3.097-3.097zm25.806 1.414L30.586 16l-1.683 1.683L27.22 16l1.682-1.683m0-1.414L25.806 16l3.097 3.097L32 16l-3.097-3.097z"/>
               </svg>
             </div>
             <div className="type">
@@ -113,7 +107,7 @@ class Header extends React.Component {
 
           .logo {
             border-radius: ${theme.size.radius.small};
-            border: 1px solid #eee;
+            border: none;
             display: inline-block;
             height: 44px;
             margin: ${theme.space.inline.default};
