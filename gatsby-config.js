@@ -34,7 +34,7 @@ module.exports = {
   // pathPrefix: config.pathPrefix,
 
   // If you want a Search page, put this back in plugins:
-  /*
+  
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
@@ -45,7 +45,7 @@ module.exports = {
         chunkSize: 10000 // default: 1000
       }
     },
-  */
+  
 
   siteMetadata: {
     title: config.siteTitle,
